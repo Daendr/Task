@@ -1,0 +1,4 @@
+{
+  "selectMaxStartTimeTestsByProject": "select t1.* from test t1 join(select name, max(start_time) as max_start_time from test group by name, project_id having project_id = {0})t2 on t1.start_time = t2.max_start_time and t1.name = t2.name WHERE project_id = {0} order by start_time desc limit {1}",
+  "selectProjectByName": "select * from project where name  = '{}'"
+}

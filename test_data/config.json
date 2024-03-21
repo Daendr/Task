@@ -1,0 +1,12 @@
+{
+  "url_api": "http://localhost:8080/api/",
+  "get_token": "token/get?variant={}",
+  "url_web": "http://localhost:8080/web/",
+  "url_auth": "http://{0}:{1}@localhost:8080/web/",
+  "database": "mysql://{0}:{1}@localhost:3306/union_reporting",
+  "send_key_js_script": "arguments[0].value = arguments[1];",
+  "click_js_script": "arguments[0].click();",
+  "closePopUp_js_script": "closePopUp();",
+  "login": "login",
+  "password": "password"
+}
